@@ -20,8 +20,8 @@
 </head>
 <body>
 	<header>
-		<div itemscope itemtype="https://schema.org/Photograph" class="top-header">
-			<h1 class="name">Nina Carducci</h1>
+		<div itemscope itemtype="https://schema.org/ProfessionalService" class="top-header">
+			<h1 itemprop="author" class="name">Nina Carducci</h1>
 			<div class="nav">   
 				<ul>
 					<li><a href="#about">À propos</a></li>
@@ -34,7 +34,7 @@
 		</div>
 	</header>
 	<main>
-		<div id="header">
+		<div itemscope itemtype="https://schema.org/Photographier" id="header">
 			
 			<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
 				<div class="carousel-indicators">
@@ -42,15 +42,15 @@
 					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
 					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
 				</div>
-				<div class="carousel-inner">
+				<div itemscope itemtype="https://schema.org/Photograph" class="carousel-inner">
 					<div class="carousel-item active">
-						<img src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.jpg" class="d-block w-100" alt="Chef d'entreprise">
+						<img itemprop="image" src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.jpg" class="d-block w-100" alt="Chef d'entreprise">
 					</div>
 					<div class="carousel-item">
-						<img src="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash.jpg" class="d-block w-100" alt="Photo d'un festival">
+						<img itemprop="image" src="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash.jpg" class="d-block w-100" alt="Photo d'un festival">
 					</div>
 					<div class="carousel-item">
-						<img src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.jpg" class="d-block w-100" alt="Jeune marié s'embrassant">
+						<img itemprop="image" src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.jpg" class="d-block w-100" alt="Jeune marié s'embrassant">
 					</div>
 				</div>
 				<button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -63,36 +63,36 @@
 				</button>
 			</div>
 		</div>
-		<div id="about">
+		<div itemscope itemtype="https://schema.org/AboutPage" id="about">
 			<div class="picture left">
-				<img src="./assets/images/nina.png" alt="Ma photo de présentation">
+				<img itemprop="image" src="./assets/images/nina.png" alt="Ma photo de présentation">
 			</div>
 			<div id="about-me">
-				<h2 class="about-me__title">A propos de moi</h2>
-				<h3 class="about-me__introduction">Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.</h3>
+				<h2 itemprop="name" class="about-me__title">A propos de moi</h2>
+				<h3 itemprop="description" class="about-me__introduction">Devenir photographe était pour moi une évidence. Comme si j’y étais prédestiné. Saisir un moment, une émotion, une situation, un endroit, une lumière et les rendre immortels, voilà ce qui me fait vibrer.</h3>
 				<p>Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, nous n’avons qu’une envie : le figer au travers de photographies pour le savourer avec les personnes qui sont importantes à nos yeux, ou le partager au plus grand nombre.
 					C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon approche, ma technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
 				</div>
 			</div>
-			<div id="gallery">
-				<h3 class="title">Portfolio</h3>
+			<div itemscope itemtype="https://schema.org/ImageGallery" id="gallery">
+				<h3 itemprop="name" class="title">Portfolio</h3>
 				<div class="container py-3">
 					<div class="gallery" style="display: none,">
-						<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.jpg" alt="Concert d'Aaron Paul"/>
-						<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash.jpg" alt="Homme en costume d'entreprise"/>
-						<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.jpg" alt="Photo d'une réunion d'entreprise"/>
-						<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash.jpg" alt="Photo de main de marié"/>
-						<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.jpg" alt="Portrait d'un homme yeux fermés"/>
-						<img data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.jpg" alt="Marié marchant ensemble"/>
-						<img data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash.jpg" alt="Portrait d'une femme a lunette"/>
-						<img data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash.jpg" alt="Concert d'Austin Neill"/>
-						<img data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.jpg" alt="Photo d'une femme qui rigole"/>
+						<img itemprop="image" data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.jpg" alt="Concert d'Aaron Paul"/>
+						<img itemprop="image" data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash.jpg" alt="Homme en costume d'entreprise"/>
+						<img itemprop="image" data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.jpg" alt="Photo d'une réunion d'entreprise"/>
+						<img itemprop="image" data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash.jpg" alt="Photo de main de marié"/>
+						<img itemprop="image" data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.jpg" alt="Portrait d'un homme yeux fermés"/>
+						<img itemprop="image" data-gallery-tag="Mariages" class="gallery-item" src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.jpg" alt="Marié marchant ensemble"/>
+						<img itemprop="image" data-gallery-tag="Portrait" class="gallery-item" src="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash.jpg" alt="Portrait d'une femme a lunette"/>
+						<img itemprop="image" data-gallery-tag="Concert" class="gallery-item" src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash.jpg" alt="Concert d'Austin Neill"/>
+						<img itemprop="image" data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.jpg" alt="Photo d'une femme qui rigole"/>
 					</div>
 				</div>
 				<div class="quote">
 					<figure>
 						<blockquote>
-							<h3 class="quote__text">Un portrait n’est pas une ressemblance. Dès lors qu’une émotion ou qu’un fait est traduit en photo, il cesse d’être un fait pour devenir une opinion. L’inexactitude n’existe pas en photographie. Toutes les photos sont exactes. Aucune d’elles n’est la vérité.</h3>
+							<h3 itemprop="citation" class="quote__text">Un portrait n’est pas une ressemblance. Dès lors qu’une émotion ou qu’un fait est traduit en photo, il cesse d’être un fait pour devenir une opinion. L’inexactitude n’existe pas en photographie. Toutes les photos sont exactes. Aucune d’elles n’est la vérité.</h3>
 						</blockquote>
 						<figcaption class="quote__author">- Richard Avedon</figcaption>
 					</figure>
@@ -101,36 +101,36 @@
 		</main>
 		<footer>
 			<div id="services">
-				<h3 class="title">Mes services</h3>
+				<h3 itemprop="title" class="title">Mes services</h3>
 				<div class="container">
-					<div class="service">
+					<div itemscope itemtype="https://schema.org/Offer"  class="service">
 						<div class="service__description">
-							<h4>Shooting photo</h4>
+							<h4 itemprop="name">Shooting photo</h4>
 							<p>Pour capturer vos moments les plus précieux et garder un souvenir impérissable. Je me déplace en Île-de-France pour réaliser vos photos</p>
 						</div>
 						<div class="service__price">
-							<h4>350€/demi journée</h4>
+							<h4 itemprop="price">350€/demi journée</h4>
 							<span>Matériel, déplacement inclus</span>
 						</div>
 						
 					</div>
-					<div class="service">
+					<div itemscope itemtype="https://schema.org/Offer"  class="service">
 						<div class="service__description">
-							<h4>Retouches</h4>
+							<h4 itemprop="name">Retouches</h4>
 							<p>Vous souhaitez retoucher vos photos pour un résultat professionnel ? Bénéficier d’un rendu optimal pour vos publications</p>
 						</div>
 						<div class="service__price">
-							<h4>50€/photo</h4>
+							<h4 itemprop="price">50€/photo</h4>
 							<span>2 AR par photo</span>
 						</div>
 					</div>
-					<div class="service">
+					<div itemscope itemtype="https://schema.org/Offer"  class="service">
 						<div class="service__description">
-							<h4>Album photos</h4>
+							<h4 itemprop="name">Album photos</h4>
 							<p>Partagez avec vos proches et vos clients les photos des moments partagés ensemble à travers un album photo personnalisé</p>
 						</div>
 						<div class="service__price">
-							<h4>400€ album A4</h4>
+							<h4 itemprop="price">400€ album A4</h4>
 							<span>30 pages recto/verso</span>
 						</div>
 					</div>
@@ -139,7 +139,7 @@
 			<div class="quote">
 				<figure>
 					<blockquote>
-						<h4 class="quote__text">De manière inconsciente, je crois, je guette un regard, une expression, des traits ou une nostalgie capable de résumer ou plus exactement de révéler une vie</h4>
+						<h4 itemprop="citation" class="quote__text">De manière inconsciente, je crois, je guette un regard, une expression, des traits ou une nostalgie capable de résumer ou plus exactement de révéler une vie</h4>
 					</blockquote>
 					<figcaption class="quote__author">- Richard Avedon</figcaption>
 				</figure>
@@ -158,11 +158,10 @@
 							</form>
 						</div>
 						<div class="picture right">
-							<img src="./assets/images/camera.png" alt="Image d'un ancien appareil photo">
+							<img itemprop="Photo" src="./assets/images/camera.png" alt="Image d'un ancien appareil photo">
 						</div>
 					</div>
 				</div>
 			</footer>
 		</body>
 		</html>
-		
