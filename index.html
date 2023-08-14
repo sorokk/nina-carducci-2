@@ -21,35 +21,35 @@
 <body>
 	<header>
 		<div itemscope itemtype="https://schema.org/ProfessionalService" class="top-header">
-			<h1 itemprop="author" class="name">Nina Carducci</h1>
+			<h1 itemprop="name" class="name">Nina Carducci</h1>
 			<div class="nav">   
 				<ul>
 					<li><a href="#about">À propos</a></li>
 					<li><a href="#gallery">Galerie</a></li>
 					<li><a href="#services">Service</a></li>
 					<li><a href="#contact">Contact</a></li>
-					<li><a class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="assets/images/instagram.png" alt="Mon instagram"></a></li>
+					<li><a itemprop="image" class="social-link" href="https://www.instagram.com/ninacarducci.photo/?hl=fr" target="_blank"><img src="assets/images/instagram.png" alt="Mon instagram"></a></li>
 				</ul>
 			</div>
 		</div>
 	</header>
 	<main>
-		<div itemscope itemtype="https://schema.org/Photographier" id="header">
+		<div itemscope itemtype="https://schema.org/ProfessionalService" id="header">
 			
-			<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-				<div class="carousel-indicators">
+			<div itemprop="name" id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+				<div itemprop="name" id="carousel-indicators" class="carousel-indicators">
 					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
 					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
 					<button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
 				</div>
-				<div itemscope itemtype="https://schema.org/Photograph" class="carousel-inner">
-					<div class="carousel-item active">
+				<div id="caroussel-inner" class="carousel-inner">
+					<div id="carousel-item active" class="carousel-item active">
 						<img itemprop="image" src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.jpg" class="d-block w-100" alt="Chef d'entreprise">
 					</div>
-					<div class="carousel-item">
+					<div id="carousel-item" class="carousel-item">
 						<img itemprop="image" src="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash.jpg" class="d-block w-100" alt="Photo d'un festival">
 					</div>
-					<div class="carousel-item">
+					<div id="carousel-item" class="carousel-item">
 						<img itemprop="image" src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.jpg" class="d-block w-100" alt="Jeune marié s'embrassant">
 					</div>
 				</div>
@@ -63,7 +63,7 @@
 				</button>
 			</div>
 		</div>
-		<div itemscope itemtype="https://schema.org/AboutPage" id="about">
+		<div itemscope itemtype="https://schema.org/ProfessionalService" id="about">
 			<div class="picture left">
 				<img itemprop="image" src="./assets/images/nina.png" alt="Ma photo de présentation">
 			</div>
@@ -74,7 +74,7 @@
 					C’est ce que je vous propose : saisir ces merveilleux moments au travers de mon regard, mon approche, ma technique. Rendre ces moments immortels, afin que vous puissiez y puiser de l’amour, du bonheur, de la tendresse et de lumière à chaque fois que vous poserez les yeux sur vos photos.</p>
 				</div>
 			</div>
-			<div itemscope itemtype="https://schema.org/ImageGallery" id="gallery">
+			<div itemscope itemtype="https://schema.org/ProfessionalService" id="gallery">
 				<h3 itemprop="name" class="title">Portfolio</h3>
 				<div class="container py-3">
 					<div class="gallery" style="display: none,">
@@ -89,48 +89,48 @@
 						<img itemprop="image" data-gallery-tag="Entreprises" class="gallery-item" src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.jpg" alt="Photo d'une femme qui rigole"/>
 					</div>
 				</div>
-				<div class="quote">
+				<div  itemscope itemtype="https://schema.org/Photograph" class="quote">
 					<figure>
 						<blockquote>
 							<h3 itemprop="citation" class="quote__text">Un portrait n’est pas une ressemblance. Dès lors qu’une émotion ou qu’un fait est traduit en photo, il cesse d’être un fait pour devenir une opinion. L’inexactitude n’existe pas en photographie. Toutes les photos sont exactes. Aucune d’elles n’est la vérité.</h3>
 						</blockquote>
-						<figcaption class="quote__author">- Richard Avedon</figcaption>
+						<figcaption itemprop="author" class="quote__author">- Richard Avedon</figcaption>
 					</figure>
 				</div>
 			</div>
 		</main>
 		<footer>
-			<div id="services">
+			<div itemscope itemtype="https://schema.org/ProfessionalService"  id="services">
 				<h3 itemprop="title" class="title">Mes services</h3>
 				<div class="container">
-					<div itemscope itemtype="https://schema.org/Offer"  class="service">
+					<div  class="service">
 						<div class="service__description">
 							<h4 itemprop="name">Shooting photo</h4>
 							<p>Pour capturer vos moments les plus précieux et garder un souvenir impérissable. Je me déplace en Île-de-France pour réaliser vos photos</p>
 						</div>
 						<div class="service__price">
-							<h4 itemprop="price">350€/demi journée</h4>
+							<h4 itemprop="priceRange">350€/demi journée</h4>
 							<span>Matériel, déplacement inclus</span>
 						</div>
 						
 					</div>
-					<div itemscope itemtype="https://schema.org/Offer"  class="service">
+					<div  class="service">
 						<div class="service__description">
 							<h4 itemprop="name">Retouches</h4>
 							<p>Vous souhaitez retoucher vos photos pour un résultat professionnel ? Bénéficier d’un rendu optimal pour vos publications</p>
 						</div>
 						<div class="service__price">
-							<h4 itemprop="price">50€/photo</h4>
+							<h4 itemprop="priceRange">50€/photo</h4>
 							<span>2 AR par photo</span>
 						</div>
 					</div>
-					<div itemscope itemtype="https://schema.org/Offer"  class="service">
+					<div class="service">
 						<div class="service__description">
 							<h4 itemprop="name">Album photos</h4>
 							<p>Partagez avec vos proches et vos clients les photos des moments partagés ensemble à travers un album photo personnalisé</p>
 						</div>
 						<div class="service__price">
-							<h4 itemprop="price">400€ album A4</h4>
+							<h4 itemprop="priceRange">400€ album A4</h4>
 							<span>30 pages recto/verso</span>
 						</div>
 					</div>
@@ -139,7 +139,7 @@
 			<div class="quote">
 				<figure>
 					<blockquote>
-						<h4 itemprop="citation" class="quote__text">De manière inconsciente, je crois, je guette un regard, une expression, des traits ou une nostalgie capable de résumer ou plus exactement de révéler une vie</h4>
+						<h4 class="quote__text">De manière inconsciente, je crois, je guette un regard, une expression, des traits ou une nostalgie capable de résumer ou plus exactement de révéler une vie</h4>
 					</blockquote>
 					<figcaption class="quote__author">- Richard Avedon</figcaption>
 				</figure>
